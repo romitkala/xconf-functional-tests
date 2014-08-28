@@ -1,5 +1,4 @@
 #!/bin/bash
 
-bundle install
-
-rake
+bundle install --path vendor/bundle
+bundle exec rake
